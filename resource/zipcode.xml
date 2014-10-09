@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table class="list2">
+	<tbody>
+		<tr style="background-color:#eeece7" itemscope=""
+			itemtype="http://schema.org/City">
+			<td itemprop="name">Bangalore</td>
+			<td></td>
+			<td>560001</td>
+			<td>
+				<div class="rec" id="1000670159"></div>
+			</td>
+		</tr>
+		<tr itemscope="" itemtype="http://schema.org/City">
+			<td itemprop="name">Bangalore Bazaar</td>
+			<td></td>
+			<td>560001</td>
+			<td>
+				<div class="rec" id="1000670160"></div>
+			</td>
+		</tr>
+		<tr style="background-color:#eeece7" itemscope=""
+			itemtype="http://schema.org/City">
+			<td itemprop="name">Brigade Road</td>
+			<td></td>
+			<td>560001</td>
+			<td>
+				<div class="rec" id="1000670161"></div>
+			</td>
+		</tr>
+		<tr itemscope="" itemtype="http://schema.org/City">
+			<td itemprop="name">Cubban Road</td>
+			<td></td>
+			<td>560001</td>
+			<td>
+				<div class="rec" id="1000670162"></div>
+			</td>
+		</tr>
+		<tr style="background-color:#eeece7" itemscope=""
+			itemtype="http://schema.org/City">
+			<td itemprop="name">Domlur</td>
+			<td></td>
+			<td>560071</td>
+			<td>
+				<div class="rec" id="1000670163"></div>
+			</td>
+		</tr>
+		<tr itemscope="" itemtype="http://schema.org/City">
+			<td itemprop="name">Dr. Ambedkar Veedhi</td>
+			<td></td>
+			<td>560001</td>
+			<td>
+				<div class="rec" id="1000670164"></div>
+			</td>
+		</tr>
+		<tr style="background-color:#eeece7" itemscope=""
+			itemtype="http://schema.org/City">
+			<td itemprop="name">H.A.L II Stage</td>
+			<td></td>
+			<td>560008</td>
+			<td>
+				<div class="rec" id="1000670165"></div>
+			</td>
+		</tr>
+		<tr itemscope="" itemtype="http://schema.org/City">
+			<td itemprop="name">HighCourt</td>
+			<td></td>
+			<td>560001</td>
+			<td>
+				<div class="rec" id="1000670166"></div>
+			</td>
+		</tr>
+		<tr style="background-color:#eeece7" itemscope=""
+			itemtype="http://schema.org/City">
+			<td itemprop="name">Hulsur Bazaar</td>
+			<td></td>
+			<td>560008</td>
+			<td>
+				<div class="rec" id="1000670167"></div>
+			</td>
+		</tr>
+		<tr itemscope="" itemtype="http://schema.org/City">
+			<td itemprop="name">Indiranagar Com. Complex</td>
+			<td></td>
+			<td>560038</td>
+			<td>
+				<div class="rec" id="1000670168"></div>
+			</td>
+		</tr>
+		<tr style="background-color:#eeece7" itemscope=""
+			itemtype="http://schema.org/City">
+			<td itemprop="name">Legislators Home</td>
+			<td></td>
+			<td>560001</td>
+			<td>
+				<div class="rec" id="1000670169"></div>
+			</td>
+		</tr>
+		<tr itemscope="" itemtype="http://schema.org/City">
+			<td itemprop="name">Mahatma Gandhi Road</td>
+			<td></td>
+			<td>560001</td>
+			<td>
+				<div class="rec" id="1000670170"></div>
+			</td>
+		</tr>
+		<tr style="background-color:#eeece7" itemscope=""
+			itemtype="http://schema.org/City">
+			<td itemprop="name">Narayan Pillai Street</td>
+			<td></td>
+			<td>560001</td>
+			<td>
+				<div class="rec" id="1000670171"></div>
+			</td>
+		</tr>
+		<tr itemscope="" itemtype="http://schema.org/City">
+			<td itemprop="name">P&amp;T Col. Kavalbyrasandra</td>
+			<td></td>
+			<td>560032</td>
+			<td>
+				<div class="rec" id="1000670172"></div>
+			</td>
+		</tr>
+		<tr style="background-color:#eeece7" itemscope=""
+			itemtype="http://schema.org/City">
+			<td itemprop="name">Rajbhavan</td>
+			<td></td>
+			<td>560001</td>
+			<td>
+				<div class="rec" id="1000670173"></div>
+			</td>
+		</tr>
+		<tr itemscope="" itemtype="http://schema.org/City">
+			<td itemprop="name">R T Nagar</td>
+			<td></td>
+			<td>560032</td>
+			<td>
+				<div class="rec" id="1000670174"></div>
+			</td>
+		</tr>
+		<tr style="background-color:#eeece7" itemscope=""
+			itemtype="http://schema.org/City">
+			<td itemprop="name">Someswarapura</td>
+			<td></td>
+			<td>560008</td>
+			<td>
+				<div class="rec" id="1000670175"></div>
+			</td>
+		</tr>
+		<tr itemscope="" itemtype="http://schema.org/City">
+			<td itemprop="name">Vidhana Soudha</td>
+			<td></td>
+			<td>560001</td>
+			<td>
+				<div class="rec" id="1000670176"></div>
+			</td>
+		</tr>
+		<tr style="background-color:#eeece7" itemscope=""
+			itemtype="http://schema.org/City">
+			<td itemprop="name">Yelahanka Satellite Town</td>
+			<td></td>
+			<td>560106</td>
+			<td>
+				<div class="rec" id="1000670177"></div>
+			</td>
+		</tr>
+	</tbody>
+</table>
