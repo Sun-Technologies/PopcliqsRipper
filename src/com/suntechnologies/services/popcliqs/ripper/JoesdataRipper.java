@@ -11,14 +11,20 @@ import org.jsoup.select.Elements;
 
 public class JoesdataRipper {
 
-	String url = "http://www.joesdata.com/companies/UbiSoft_Entertainment_7174640/4.html";	
 	
-	String  industry = "Internet & Software";
-	String  vertical = "Games and Gaming";
+	static int noOfPages = 4; 
+	
+	String  industry = "Retail";
+	String  vertical = "Clothing and Accessories";
 	
 	public static void main(String[] args) {
+		
 		try {
-			new JoesdataRipper().processPage();
+			for( int i = 1 ; i <= noOfPages ; i++){
+				
+				String url = "http://www.joesdata.com/companies/Barneys_New_York_Inc_7178492/"+ i+".html";	
+				new JoesdataRipper().processPage(url);
+			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -26,7 +32,7 @@ public class JoesdataRipper {
 	}
 	
 	
-	private void processPage() throws Exception{
+	private void processPage(String url ) throws Exception{
 		
 		Document doc = Jsoup.connect( url ).get();
 		Elements tokens = doc.getElementsByTag("a");
@@ -37,8 +43,8 @@ public class JoesdataRipper {
 		while(it.hasNext()){
 			Element token = (Element)it.next();
 			if(token.text().equals("Profile")){
-			 String url = 	token.attr("abs:href");
-			 processVcard(url);
+			 String vCardurl = 	token.attr("abs:href");
+			 processVcard(vCardurl);
 			 Thread.sleep(1000 * 5);
 			}
 		}
@@ -46,10 +52,10 @@ public class JoesdataRipper {
 	}
 
 
-	private void processVcard(String url) throws Exception{
+	private void processVcard(String vCardurl) throws Exception{
 		
 		//String url = "http://www.joesdata.com/executive/_Tony_Key_178027504.html";
-		Document doc = Jsoup.connect( url ).get();
+		Document doc = Jsoup.connect( vCardurl ).get();
 		
 		Elements tokens = doc.getElementsByTag("span");
 		
