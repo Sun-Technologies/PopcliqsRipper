@@ -68,7 +68,7 @@ public class JoesdataRipper {
 		Element web 		= tokens.get(7);
 		
 		
-		System.out.println(name.text() + "," + title.text() + "," + company.text() + "," 
+		System.out.println(name.text() + "," + title.text().replace(",", " ") + "," + company.text() + "," 
 				+ tel.text() + "," + address.text() + "," + address2.text() + ","   + web.text() + "," + industry + "," + vertical );
 		
 	}
